@@ -50,4 +50,4 @@ npx amplify codegen
 
 
 ## Reference links  
-- Docs: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/)
+- Docs: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/
