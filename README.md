@@ -7,7 +7,7 @@ Create a file aws-exports.js in root of project and add the next configuration :
 
 ```
 const awsmobile = {
-    "aws_appsync_graphqlEndpoint": [URL_API_APP_SYNC]",
+    "aws_appsync_graphqlEndpoint": [URL_API_APP_SYNC],
     "aws_appsync_region": [REGION],
     "aws_appsync_authenticationType": "API_KEY",
     "aws_appsync_apiKey": [API_KEY],
