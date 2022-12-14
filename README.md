@@ -32,7 +32,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ## Step to create new Api AWS AppSync. 
 
 - Using wizard of AppSync and press “Create Api”
-- Select “Create a generic real-time API” is a generic PUB-SUB
+- Select “Create a generic real-time API” (generic PUB-SUB)
 - Export Schema schema.graphql (in schema item of menu)
 - Copy schema file in the root of project
 - Install anplifly 
@@ -48,6 +48,5 @@ amplify add codegen --apiId xxxxxxxxxxxxxxxxxxxxxx --region eu-central-1
 npx amplify codegen
 ```
 
-
 ## Reference links  
-- Docs: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/
+- Amplify: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/

@@ -10,7 +10,7 @@ projects:
         codeGenTarget: javascript
         generatedFileName: ''
         docsFilePath: src/graphql
-        region: eu-central-1
+        region: us-east-1
         apiId: GenericTimeDemo
         frontend: javascript
         framework: react
