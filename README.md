@@ -51,3 +51,5 @@ npx amplify codegen
 
 ## Reference links  
 - Amplify: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/
+- AWS Samples: https://github.com/aws-samples
+
