@@ -8,14 +8,15 @@ import * as mutations from './graphql/mutations';
 Amplify.configure(awsmobile);
 
 function App() {
-    const [channel, setChannel] = useState("channel2");
     const [message, setMessage] = useState("");
     const [received, setReceived] = useState([]);
+    let channel = "channel2";
+    let key = 0;
     let messages = [];
 
     const sendMessage = async() => {
         let jsonData="{\"msg\": \"" + message + "\"}"
-        const publish = await API.graphql(
+        await API.graphql(
             graphqlOperation(mutations.publish, { name: channel , data : jsonData })
         );
         setMessage("");
@@ -42,10 +43,11 @@ function App() {
    
 
     if (received) {
+        
         messages.push(received);
         messages = [].concat(received).map((msg, i) => (
-            <div>
-               <div >
+            <div key={key++}>
+               <div>
                 <span>{msg.name}</span>
               </div>
               <div>
@@ -62,7 +64,7 @@ function App() {
                     <p>Send/Push JSON to channel "{channel}"</p>
                     <div>
                         <textarea 
-                            defaultValue={message}
+                            value={message}
                             onChange={(e)=>{setMessage(e.target.value) }}>
                         </textarea>
                         <br />
