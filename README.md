@@ -39,7 +39,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ```
 npm i aws-amplify
 ``` 
-- Execute:  
+- Execute next code that create files .graphqlconfig.yml and folder graphql
 ```
 amplify add codegen --apiId xxxxxxxxxxxxxxxxxxxxxx --region eu-central-1
 ```
@@ -47,6 +47,7 @@ amplify add codegen --apiId xxxxxxxxxxxxxxxxxxxxxx --region eu-central-1
 ```
 npx amplify codegen
 ```
+
 
 ## Reference links  
 - Docs: https://docs.amplify.aws/lib/graphqlapi/getting-started/q/platform/js/)
