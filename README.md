@@ -34,8 +34,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Using wizard of AppSync and press “Create Api”
 - Select “Create a generic real-time API” (generic PUB-SUB)
 - Export Schema schema.graphql (in schema item of menu)
+- Create new project react
 - Copy schema file in the root of project
-- Install anplifly 
+- Install amplifly 
 ```
 npm i aws-amplify
 ``` 
