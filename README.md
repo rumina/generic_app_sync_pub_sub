@@ -3,7 +3,7 @@
 
 ## Config file  
 
-Create a file aws-exports.js in root of project and add the next configuration :
+Inside /src folder create a file aws-exports.js then add the next configuration :
 
 ```
 const awsmobile = {
