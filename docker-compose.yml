@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   myreactapp:
-    build: ../generic_channel_time
-    container_name: generic_channel_time_c
+    build: ../generic_app_sync_pub_sub
+    container_name: generic_app_sync_pub_sub_c
     ports: 
       - '3000:3000'
     stdin_open: true
